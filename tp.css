@@ -1,0 +1,110 @@
+section {
+  display: flex;
+  padding: 0px;
+  background-color: rgb(206, 236, 205);
+  /* background-image: url(img/image.png); */
+  height: 91%;
+  width: 100%;
+}
+img{
+  display: none;
+margin: auto;
+}
+.parent {
+  margin: auto;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 4rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+
+a.btn--yellow {
+  color: #fff;
+  background-color: darkcyan;
+  border-bottom: 5px solid rgb(2, 107, 107);
+  width: 500px;
+}
+
+a.btn--yellow:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: rgb(3, 190, 190);
+  border-bottom: 2px solid rgb(2, 107, 107);
+}
+
+a.btn--yellow:hover {
+  margin-top: 3px;
+  c5;
+}
+
+
+header,
+footer {
+  display: table;
+  height: 10%;
+  width: 100%;
+  background-color: darkcyan;
+  color: cornsilk;
+  font-size: 35px;
+  z-index: 10;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.top,
+.bottom {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+footer {
+  font-size: 20px;
+}
+
+html {
+  height: 100%;
+
+}
+
+body {
+  height: 90%;
+  margin: 0;
+}
